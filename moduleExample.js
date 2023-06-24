@@ -3,6 +3,7 @@
 
 const names = require('./moduleNames');
 const sayHi = require('./moduleUtils')
-
-sayHi(names.fName)
-sayHi(names.sName)
+const altSyntax = require('./altSyntax')
+console.log(altSyntax);
+// sayHi(names.fName)
+// sayHi(names.sName)
